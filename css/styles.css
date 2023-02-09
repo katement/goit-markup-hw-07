@@ -207,6 +207,10 @@ a {
 	background-color: tomato;
 	/* position: relative; */
 }
+
+.mob-menu > .container {
+	height: 100%;
+}
 .menu-close {
 	width: 24px;
 	height: 24px;
@@ -222,7 +226,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	gap: 40px;
-	margin-bottom: 284px;
+	/* margin-bottom: 284px; */
 }
 .mob-menu-navigation-item {
 	font-weight: 700;
@@ -403,6 +407,7 @@ a {
 }
 
 .main-item-columns {
+	/* width: 356px; */
 }
 .list-item::before {
 	display: none;
