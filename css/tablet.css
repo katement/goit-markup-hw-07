@@ -5,8 +5,7 @@
 	}
 	.container {
 		max-width: 768px;
-		padding-left: 16px;
-		padding-right: 16px;
+		
 		margin: 0 auto;
 	}
 
@@ -146,16 +145,21 @@
 	}
 	/* FEATURES */
 	.features {
-		/* width: 100%; */
+		width: 100%;
 	}
-	.list-item {display: flex;
-        flex-wrap: wrap;
-        width: 356px;
-		gap: 24px;
+	.list-item { width: 356px;
+		
 	}
 	.main-item-columns {display: flex;
         flex-wrap: wrap;
-        width: 356px;
-		gap: 24px;
+		row-gap: 24px;
+        column-gap: 72px;
+        width: 100%;
 	}
+    .main-item-paragraph {
+	width: 356px;
+}
+.main-heading-3{width: 356px;
+
+}
 }

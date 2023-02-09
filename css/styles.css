@@ -393,15 +393,15 @@ a {
 
 /* FEATURES */
 .features {
-	width: 100%;
 }
 
 .list-item {
-	display: block;
+	width: 356px;
 }
-.list-item:not(:last-child) {
-	margin-bottom: 72px;
+.main-item-paragraph {
+	width: 356px;
 }
+
 .main-item-columns {
 }
 .list-item::before {
