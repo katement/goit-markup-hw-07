@@ -148,13 +148,14 @@
 	.features {
 		/* width: 100%; */
 	}
-	.list-item {
+	.list-item {display: flex;
+        flex-wrap: wrap;
+        width: 356px;
 		gap: 24px;
 	}
-	.main-item-columns {
-		width: 356px;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
+	.main-item-columns {display: flex;
+        flex-wrap: wrap;
+        width: 356px;
+		gap: 24px;
 	}
 }
