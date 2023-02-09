@@ -325,4 +325,127 @@
 	.customer-icon {
 		fill: currentColor;
 	}
+
+	/* FOOTER */
+
+	.footer {
+		max-width: 1158px;
+		display: flex;
+	}
+
+	.added {
+		width: 1125px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		margin: 0;
+	}
+	.footer-logo {
+		font-family: var(--secondary-font);
+		font-style: normal;
+		font-weight: 800;
+		font-size: 18px;
+		line-height: 1.17;
+		color: #f4f4fd;
+		text-decoration: none;
+		letter-spacing: 0.03em;
+		display: flex;
+		align-items: center;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		margin-bottom: 16px;
+	}
+	.footer-paragraph {
+		font-style: normal;
+		font-weight: 400;
+		line-height: 1.5;
+		color: #e7e9fc;
+		letter-spacing: 0.02em;
+		width: 264px;
+	}
+	.social-block {
+		margin-left: 80px;
+		/* margin-right: 80px; */
+	}
+	.footer-social-paragraph {
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: var(--white);
+	}
+	.footer-social-list {
+		display: flex;
+		justify-content: center;
+		gap: 16px;
+		list-style: none;
+		margin-top: 12px;
+	}
+
+	.footer-social-link {
+		background-color: rgba(255, 255, 255, 0.1);
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition-property: background-color;
+		transition-duration: 250ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	}
+	.footer-social-link:hover,
+	.footer-social-link:focus {
+		background-color: #31d0aa;
+	}
+
+	.subscibe-block {
+		display: flex;
+		margin-left: 88px;
+	}
+	.subscribe-items {
+		display: flex;
+		flex-direction: row;
+		margin-top: 16px;
+	}
+
+	.subscribe-input {
+		border: 1px solid rgba(255, 255, 255, 0.3);
+		border-radius: 4px;
+		width: 264px;
+		height: 40px;
+		position: relative;
+		background-color: transparent;
+		box-sizing: border-box;
+		padding: 0;
+		color: var(--light);
+		padding: 8px 16px;
+	}
+	.subscribe-input:focus {
+		outline: none;
+		background-color: transparent;
+	}
+	.subscribe-submit-btn {
+		background: #4d5ae5;
+		border-radius: 4px;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 1.5;
+		color: var(--white);
+		align-items: center;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	.plane {
+		color: var(--white);
+		background-image: url(../images/plane.svg);
+		width: 24px;
+		height: 24px;
+		margin-left: 16px;
+	}
 }

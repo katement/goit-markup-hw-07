@@ -335,33 +335,46 @@
 .footer{
 	
 }
+.footer-logo {
+	justify-content: left;
+}
 .added {
 
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+
+	
 	column-gap: 24px;
 	row-gap: 72px;
 	width: 768px;
 }
 
 .tablet-block{
-	display: flex;
+	/* display: flex;
 	flex-direction: row;
-	column-gap: 24px;
+	column-gap: 24px; */
 	
-	
+}
+.social-block {
+	margin: 0;
 }
 .subscribe-input {
 	width: 264px;
 }
 .subscibe-block {
 	display: flex;
-	/* flex-direction: row;
-	flex-wrap: wrap; */
+	flex-direction: row;
+
+}
+.footer-social-paragraph {
+
+	text-align: left;
 }
 .subscribe-items {
 	display: flex;
+	flex-direction: row;
+	gap: 24px;
 	/* flex-direction: column;
 	justify-content: center;
 	align-items: center;
