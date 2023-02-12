@@ -35,36 +35,56 @@
                <li><a class="header-contacts-item" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
            </ul>
 
+           
+<button type="button"  class="menu-open js-open-menu" >
+   
+<svg class="menu-open-icon" width="32" height="22">
+    <use class="menu-open-icon" href="./images/icons.svg#icon-hamburger">
 
-           <button type="button" class="burger">
-            <svg class="mob-menu-open-icon" width="32" height="22" data-menu-open>
-        <use href="./images/icons.svg#icon-hamburger"></use>
-    </svg>
-           </button>
-       </div>
-       <!-- MOB-MENU -->
-       <!-- <div class="menu-container mob-menu">
-         <div class="mob-nav-1"></div><button type="button" class="menu-close" data-menu-close>
-<svg width="8" height="8" >
-    <use href="./images/close-black-18dp.svg"></use>
+    </use>
 </svg>
 </button>
-        
-             <nav> <ul class="mob-menu-list">
+
+          
+            </div>
+      
+<!-- MOBILE MENU -->
+
+<div  class="mob-menu is-hidden js-menu-container" >
+
+    <div class="container">
+        <div class="mob-menu-top"> 
+<button type="button"  class="menu-close js-close-menu" >
+   
+<svg class="menu-close-icon" width="8" height="8">
+    <use class="menu-close-icon" href="./images/icons.svg#icon-close-black-18dp">
+
+    </use>
+</svg>
+</button>
+
+
+
+
+
+    <nav>
+ <ul class="mob-menu-navigation">
                    <li><a class="mob-menu-navigation-item current" style="color:var(--primary-brand);" href="./index.html" 
                        >Studio</a></li>
                    <li><a class="mob-menu-navigation-item" href="./portfolio.html">Portfolio</a></li>
                    <li><a class="mob-menu-navigation-item" href="">Contacts</a></li>
-               </ul></nav></div>
-           
-           <div class="mob-nav-2"><ul class="mob-menu-contacts">
-            <li><a class="mob-menu-contacts-item" href="tel:+110001111111">+11 (000) 111-11-11</a></li>   
-            <li><a class="mob-menu-contacts-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-               
-           </ul> -->
-           
-           <!-- MOBILE_SOCIALS -->
-            <!-- <ul class="mob-social-list">
+</ul>
+    </nav>
+        </div>
+<div class="mob-menu-bottom">
+               <ul class="mob-menu-contacts">
+               <li><a class="mob-menu-contacts-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+               <li><a class="mob-menu-contacts-item" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+           </ul>
+
+
+
+            <ul class="mob-social-list">
                 <li class="mob-social-items">
                 <a class="mob-social-link" href="" >
                 <svg class="mob-social-icon" width="24" height="24">
@@ -72,7 +92,7 @@
                 </svg>
                 </a></li>
                 <li class="mob-social-items">
-                <a class="mob-social-link" href="" >
+                <a class="mob-social-link icon-twitter" href="" >
                 <svg class="mob-social-icon" width="24" height="24">
                     <use href="./images/symbol-defs.svg#icon-twitter"></use>
                 </svg>
@@ -89,9 +109,20 @@
                     <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                 </svg>
                 </a></li>
-            </ul></div>
-       </div> -->
-       </header>
+
+            </ul>
+           
+     </div>       
+</div>
+</div>
+</div>
+
+
+    </header>
+
+
+    
+      
     <!--MAIN-->
     <main>
         <!--HERO-->
@@ -104,18 +135,18 @@
          <section class="section">
             <div class="container features">
 
-            <h2 class="main-heading-2 visually-hidden">Features</h2>
-            <ul class="main-item-columns">
-                <li class="list-item icon-strategy"><h3 class="main-heading-3-features">Strategy</h3>
-                    <p class="main-item-paragraph">Our goal is to identify the business problem to walk away with the perfect and creative solution. </p>
+            <h2 class="main-heading-2-features visually-hidden">Features</h2>
+            <ul class="main-item-columns-features">
+                <li class="list-item-features icon-strategy"><h3 class="main-heading-3-features">Strategy</h3>
+                    <p class="main-item-paragraph-features">Our goal is to identify the business problem to walk away with the perfect and creative solution. </p>
 
                 </li>
-                <li class="list-item icon-punctuality"><h3 class="main-heading-3-features">Punctuality</h3>
-                    <p class="main-item-paragraph">Bring the key message to the brand's audience for the best price within the shortest possible time.</p></li>
-                <li class="list-item icon-diligence"><h3 class="main-heading-3-features">Diligence</h3>
-                    <p class="main-item-paragraph">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p></li>
-                <li class="list-item icon-technologies"><h3 class="main-heading-3-features">Technologies</h3>
-                    <p class="main-item-paragraph">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p></li>
+                <li class="list-item-features icon-punctuality"><h3 class="main-heading-3-features">Punctuality</h3>
+                    <p class="main-item-paragraph-features">Bring the key message to the brand's audience for the best price within the shortest possible time.</p></li>
+                <li class="list-item-features icon-diligence"><h3 class="main-heading-3-features">Diligence</h3>
+                    <p class="main-item-paragraph-features">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p></li>
+                <li class="list-item-features icon-technologies"><h3 class="main-heading-3-features">Technologies</h3>
+                    <p class="main-item-paragraph-features">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p></li>
             </ul>
             </div>
         </section>
@@ -131,13 +162,13 @@
         <!--OUR TEAM-->
       <section class="section team">
         <div class="container">
-            <h2 class="main-heading-2">Our Team</h2>
-    <ul class="main-pre-item-1">
+            <h2 class="main-heading-2-team">Our Team</h2>
+    <ul class="main-pre-item-1-team">
     <li class="team-items">
-            <img src="./images/img.jpg" alt="Mark" width="264">
+            <img src="./images/Mark1x.jpg", src="./images/Mark2x.jpg" alt="Mark" width="264">
             <div class="team-content">
             <h3 class="main-heading-3-team">Mark Guerrero</h3>
-            <p class="main-item-paragraph-2">Product Designer</p>
+            <p class="main-item-paragraph-2-team">Product Designer</p>
             <ul class="social-list">
                 <li class="social-items">
                 <a class="social-link" href="" >
@@ -168,10 +199,10 @@
         </div>
         </li>
         <li class="team-items">
-            <img src="./images/img(1).jpg" alt="Tom" width="264">
+            <img src="./images/Tom1x.jpg", src="./images/Tom2x.jpg" alt="Tom" width="264">
             <div class="team-content">
             <h3 class="main-heading-3-team">Tom Ford</h3>
-            <p class="main-item-paragraph-2">Frontend Developer</p>
+            <p class="main-item-paragraph-2-team">Frontend Developer</p>
             <ul class="social-list">
                 <li class="social-items">
                 <a class="social-link" href="" >
@@ -201,9 +232,9 @@
             </ul></div>
         </li>
         <li class="team-items">
-            <img src="./images/img(2).jpg" alt="Camila" width="264">
+            <img src="./images/Camila1x.jpg", src="./images/Camila2x.jpg" alt="Camila" width="264">
             <div class="team-content"><h3 class="main-heading-3-team">Camila Garcia</h3>
-            <p class="main-item-paragraph-2">Marketing</p>
+            <p class="main-item-paragraph-2-team">Marketing</p>
             <ul class="social-list">
                 <li class="social-items">
                 <a class="social-link" href="" >
@@ -233,9 +264,9 @@
             </ul></div>
         </li>
         <li class="team-items">
-            <img src="./images/img(3).jpg" alt="Daniel" width="264">
+            <img src="./images/Daniel1x.jpg", src="./images/Daniel2x.jpg" alt="Daniel" width="264">
             <div class="team-content"><h3 class="main-heading-3-team">Daniel Wilson</h3>
-            <p class="main-item-paragraph-2">UI Designer</p>
+            <p class="main-item-paragraph-2-team">UI Designer</p>
             <ul class="social-list">
                 <li class="social-items">
                 <a class="social-link" href="" >
@@ -413,24 +444,33 @@
 </div>
 
 <!-- SCRIPT -->
-<script src="./js/mobile-menu.js">
-    // const refs={
-    //     openModalBtn: document.querySelector("[data-open-modal]"),
-    //     closeModalBtn: document.querySelector("[data-close-modal]"),
-    //     backdrop: document.querySelector("[data-backdrop]"),
-    // };
-    // refs.openModalBtn.addEventListener("click", toggleModal);
-    // refs.closeModalBtn.addEventListener("click", toggleModal);
-    // refs.backdrop.addEventListener("click", logBackdropClick);
-    // function toggleModal() {
-    //     refs.backdrop.classList.toggle("is-hidden");
-    // }
-    // function logBackdropClick(){
-    //     console.log("Это клик в бэкдроп");
-    // }
+
+
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+<script>
+    const refs={
+        openModalBtn: document.querySelector("[data-open-modal]"),
+        closeModalBtn: document.querySelector("[data-close-modal]"),
+        backdrop: document.querySelector("[data-backdrop]"),
+    };
+    refs.openModalBtn.addEventListener("click", toggleModal);
+    refs.closeModalBtn.addEventListener("click", toggleModal);
+    refs.backdrop.addEventListener("click", logBackdropClick);
+    function toggleModal() {
+        refs.backdrop.classList.toggle("is-hidden");
+    }
+    function logBackdropClick(){
+        console.log("Это клик в бэкдроп");
+    }
 
 
 </script>
-<script src="./js/modal.js"></script>
+
+<script src="./js/mobile-menu.js"></script> 
+
+
+</script>
 </body>
 </html>

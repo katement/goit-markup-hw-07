@@ -1,10 +1,10 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
 	.section {
 		padding-top: 120px;
 		padding-bottom: 120px;
 	}
 	.container {
-		max-width: 1158px;
+		width: 1158px;
 		padding: 0 15px;
 		margin: 0 auto;
 	}
@@ -145,23 +145,31 @@
 		.features {
 			margin-left: 0;
 			margin-right: 0;
-			max-width: 1158px;
+			width: 100%;
 		}
-		.main-item-columns {
+		.features > .container {
 			display: flex;
 			flex-direction: row;
+			margin-right: 0;
 		}
-		.main-heading-3 {
-			width: 264px;
-		}
-		.list-item {
-			width: 264px;
+		.main-item-columns-features {
+			flex-wrap: nowrap;
+
 			gap: 24px;
 		}
-		.main-item-paragraph {
-			width: 264px;
+		.main-heading-3-features {
+			/* width: 264px; */
 		}
-		.list-item::before {
+		.list-item-features {
+			display: block;
+			/* width: 264px; */
+			gap: 24px;
+		}
+		.main-item-paragraph-features {
+			display: block;
+			/* width: 264px; */
+		}
+		.list-item-features::before {
 			content: "";
 			display: block;
 			height: 112px;
@@ -173,19 +181,26 @@
 			background-size: 264px 112px;
 			background-repeat: no-repeat;
 		}
+		.list-item-features::before {
+			display: block;
+		}
 		.icon-strategy::before {
+			display: block;
 			background-image: url(../images/antenna.svg);
 			background-size: 64px 64px;
 		}
 		.icon-punctuality::before {
+			display: block;
 			background-image: url(../images/clock.svg);
 			background-size: 64px 64px;
 		}
 		.icon-diligence::before {
+			display: block;
 			background-image: url(../images/diagram.svg);
 			background-size: 64px 64px;
 		}
 		.icon-technologies::before {
+			display: block;
 			background-image: url(../images/astronaut.svg);
 			background-size: 64px 64px;
 		}

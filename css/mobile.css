@@ -1,8 +1,7 @@
-@media screen and (min-width: 480px;) {
+@media screen and (min-width: 428px;) {
 	.container {
-		max-width: 428px;
-		padding-left: 15px;
-		padding-right: 15px;
+		width: 428px;
+		padding: 0 15px;
 		margin: 0 auto;
 		justify-content: center;
 		align-items: center;
@@ -25,19 +24,6 @@
 	}
 
 	/* FEATURES */
-
-	.main-item-columns {
-	}
-	.main-heading-3 {
-		font-size: 32px;
-		font-weight: 700;
-		line-height: 1.1;
-	}
-	.main-item-paragraph {
-		font-size: 16px;
-		font-weight: 500;
-		line-height: 1.5;
-	}
 
 	.menu-close {
 		width: 24px;
