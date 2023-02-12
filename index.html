@@ -36,7 +36,7 @@
            </ul>
 
            
-<button type="button"  class="menu-open js-open-menu" >
+<button type="button" data-menu-open class="menu-open" >
    
 <svg class="menu-open-icon" width="32" height="22">
     <use class="menu-open-icon" href="./images/icons.svg#icon-hamburger">
@@ -50,11 +50,11 @@
       
 <!-- MOBILE MENU -->
 
-<div  class="mob-menu is-hidden js-menu-container" >
+<div data-menu class="mob-menu is-hidden" >
 
     <div class="container">
         <div class="mob-menu-top"> 
-<button type="button"  class="menu-close js-close-menu" >
+<button type="button" data-menu-close class="menu-close" >
    
 <svg class="menu-close-icon" width="8" height="8">
     <use class="menu-close-icon" href="./images/icons.svg#icon-close-black-18dp">
@@ -62,10 +62,6 @@
     </use>
 </svg>
 </button>
-
-
-
-
 
     <nav>
  <ul class="mob-menu-navigation">
@@ -128,7 +124,7 @@
         <!--HERO-->
         <section class="hero-container overlay"><div class="container">
             <h1 class="main-heading-1">Effective Solutions for Your Business</h1>
-            <button data-open-modal class="main-button" type="button">Order Service</button>
+            <button data-modal-open class="main-button" type="button">Order Service</button>
          </div> </section>
    
     <!--FEATURES-->
@@ -396,9 +392,9 @@
 
 </footer>
 <!-- MODAL -->
-<div class="backdrop is-hidden" data-backdrop>
+<div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <button data-close-modal class="close-button">
+        <button data-modal-close class="close-button">
             <svg width="8px" height="8px"> <use href="./images/close-black-18dp.svg"></use></svg>
         </button> 
 
@@ -446,29 +442,11 @@
 <!-- SCRIPT -->
 
 
-   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-<script>
-    const refs={
-        openModalBtn: document.querySelector("[data-open-modal]"),
-        closeModalBtn: document.querySelector("[data-close-modal]"),
-        backdrop: document.querySelector("[data-backdrop]"),
-    };
-    refs.openModalBtn.addEventListener("click", toggleModal);
-    refs.closeModalBtn.addEventListener("click", toggleModal);
-    refs.backdrop.addEventListener("click", logBackdropClick);
-    function toggleModal() {
-        refs.backdrop.classList.toggle("is-hidden");
-    }
-    function logBackdropClick(){
-        console.log("Это клик в бэкдроп");
-    }
-
-
+   
+<script src="./js/modal.js">
 </script>
 
-<script src="./js/mobile-menu.js"></script> 
+<script src="./js/menu.js"></script> 
 
 
 </script>
