@@ -108,7 +108,7 @@
 	}
 	/* HERO */
 	.overlay {
-		height: 432px;
+		/* height: 432px; */
 		outline: 1px solid transparent;
 		/* max-width: 428px; */
 		margin: 0 auto;
@@ -118,6 +118,7 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		background-color: #2e2f42;
+		padding-bottom: 188px;
 	}
 
 	@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {

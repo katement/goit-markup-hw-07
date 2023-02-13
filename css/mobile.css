@@ -5,16 +5,17 @@
 
 	/* HERO */
 	.overlay {
-		height: 432px;
 		outline: 1px solid transparent;
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
-		background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/);
+		background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+			url(../images/people-office-mobile-1x.jpg), url(../images/people-office-mobile-2x.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
 		background-color: #2e2f42;
+		padding-bottom: 112px;
 	}
 
 	/* FEATURES */
