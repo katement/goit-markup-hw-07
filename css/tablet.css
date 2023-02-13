@@ -4,7 +4,7 @@
 		padding-bottom: 96px;
 	}
 	.container {
-		width: 768px;
+		max-width: 768px;
 		padding: 0 15px;
 		margin: 0 auto;
 		justify-content: center;
@@ -121,7 +121,7 @@
 		.overlay {
 			background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 				url(../images/people-office-tablet-2x.jpg);
-		}
+		}}
 
 		.main-heading-1 {
 			font-family: Roboto;
